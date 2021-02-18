@@ -138,7 +138,7 @@ private extension RestaurantViewController {
             bookButton.heightAnchor.constraint(equalToConstant: 40),
             bookButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             bookButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            bookButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -20),
+            bookButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20),
         ])
     }
     
